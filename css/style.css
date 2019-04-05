@@ -418,7 +418,7 @@ p {
   font-size: 20px;
   display: block;
   position: absolute;
-  bototm: 0;
+  bottom: 0;
   left: 50%;
   margin-left: -10px;
   -webkit-animation: ani-mouse 2.5s linear infinite;
