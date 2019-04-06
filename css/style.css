@@ -434,6 +434,10 @@ p {
   text-decoration: none;
 }
 
+#fh5co-home .flexslider .fh5co-text .fh5co-go a:hover span i {
+  font-size: 30px;
+}
+
 #fh5co-home .flexslider .slides li {
   background-repeat: no-repeat;
   background-size: cover;
@@ -531,6 +535,12 @@ p {
 .offcanvas-visible #fh5co-offcanvas {
   -webkit-transform: translateX(0px);
   transform: translateX(0px);
+}
+
+@media screen and (max-width: 768px) {
+  #fh5co-main {
+    background-position-x: -50%;
+  }
 }
 
 #fh5co-portfolio,
