@@ -142,6 +142,7 @@ a {
 h1, h2, h3, h4, h5, h6 {
 	font-family: $font-primary;
 	color: $brand-black;
+	border-radius: 40px;
 }
 p {
 	margin-bottom: 30px;
@@ -979,6 +980,10 @@ p {
 }
 
 @media screen and (max-width: 480px) {
+	#fh5co-testimony {
+		background-position-x: 300px;
+}
+	
 	.col-xxs-12 {
 		width: 100%;
 		float: none;

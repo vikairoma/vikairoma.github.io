@@ -53,6 +53,7 @@ a:hover, a:focus, a:active {
 h1, h2, h3, h4, h5, h6 {
   font-family: "Roboto Slab", sans-serif;
   color: #000;
+  border-radius: 40px;
 }
 
 p {
@@ -1013,6 +1014,9 @@ p {
 }
 
 @media screen and (max-width: 480px) {
+  #fh5co-testimony {
+    background-position-x: 300px;
+  }
   .col-xxs-12 {
     width: 100%;
     float: none;
