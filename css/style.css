@@ -736,6 +736,10 @@ p {
   border: 2px solid #f9ad81;
 }
 
+#fh5co-contact {
+  background-position-x: -50%;
+}
+
 #fh5co-footer {
   background: #ececec;
   padding: 4em 0;
