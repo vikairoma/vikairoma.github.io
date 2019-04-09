@@ -443,6 +443,12 @@ p {
   background-size: cover;
 }
 
+@media screen and (max-width: 421px) {
+  #fh5co-home .flexslider .slides li {
+    background-position-x: 1000px;
+  }
+}
+
 #fh5co-home .flexslider .fh5co-overlay {
   position: absolute;
   z-index: 3;
@@ -891,7 +897,7 @@ p {
 }
 
 .section-heading .fh5co-section-title {
-  font-size: 11px;
+  font-size: 22px;
   letter-spacing: 2px;
   text-transform: uppercase;
   color: #41454f;
@@ -1029,7 +1035,7 @@ p {
 
 @media screen and (max-width: 480px) {
   #fh5co-testimony {
-    background-position-x: 300px;
+    background-position-x: 540px;
   }
   .col-xxs-12 {
     width: 100%;

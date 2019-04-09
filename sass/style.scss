@@ -484,6 +484,10 @@ p {
 			li {
 				background-repeat: no-repeat;
 				background-size: cover;
+				// background-position-x: 1000px;
+				@media screen and (max-width: 421px) {
+					background-position-x: 1000px;
+				}
 			}
 		}
 		.fh5co-overlay {
@@ -853,7 +857,7 @@ p {
 
 .section-heading {
 	.fh5co-section-title {
-		font-size: 11px;
+		font-size: 22px;
 		letter-spacing: 2px;
 		text-transform: uppercase;
 		color: $brand-secondary;
@@ -982,7 +986,7 @@ p {
 
 @media screen and (max-width: 480px) {
 	#fh5co-testimony {
-		background-position-x: 300px;
+		background-position-x: 540px;
 }
 	
 	.col-xxs-12 {
